@@ -1,0 +1,12 @@
+.icon-size {
+    font-size: 25px !important;
+}
+
+.dec-none {
+    text-decoration: none !important;
+}
+
+.header-hover-effect:hover {
+    color: rgb(203, 186, 186) !important;
+    transform: scale(1.15);
+}
