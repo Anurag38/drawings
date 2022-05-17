@@ -31,7 +31,7 @@ const Header = () => {
                             Home
                         </Link>
                         <Link to="/prints" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
-                            Prints
+                            PRINTS
                         </Link><Link to="/contact" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
                             Contact
                         </Link>
