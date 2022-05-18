@@ -26,18 +26,29 @@ const Header = () => {
             </div>
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                    <div className="container-fluid d-flex justify-content-center">
-                        <Link to="/" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
-                            Home
-                        </Link>
-                        <Link to="/prints" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
-                            PRINTS
-                        </Link><Link to="/contact" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
-                            Contact
-                        </Link>
+                    <div className="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div className='d-flex justify-content-center'>
+                                <Link to="/" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
+                                    Home
+                                </Link>
+                                <Link to="/prints" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
+                                    PRINTS
+                                </Link>
+                                <Link to="/contact" className='mx-4 dec-none text-light header-hover-effect py-2 fs-5'>
+                                    Contact
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>
+
+
+            
         </div>
     )
 }

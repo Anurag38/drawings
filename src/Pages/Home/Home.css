@@ -1,3 +1,20 @@
 .car-img-height{
     height: 35rem !important;
 }
+.anurag{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-size{
+    font-size: 25px !important;
+}
+
+.artist-image{
+    border-top-left-radius:22rem ; 
+    border-top-right-radius:22rem ;   
+}
+
+.cont-ht{
+    height: 33rem;
+}
+
